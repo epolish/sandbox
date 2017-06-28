@@ -1,0 +1,3 @@
+*Problem with encoding
+    includes/Abstracts/Field.php 171 line
+    [ htmlentities( $value ) ] replaced by [ htmlspecialchars( $value, ENT_QUOTES, 'UTF-8' ) ]
