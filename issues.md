@@ -16,7 +16,7 @@ Functional problems:
     On selection line doesn't work search by field "ENTER REG".
     
     When I'm on page with specific product, there's no image or thumbnail, as same as in a basket.
-    Static pages links in footer(Terms & Condition|Privacy|Police|Return|Policy|About Us|Contact Us) don't work.
+    Static pages' links in footer(Terms & Condition|Privacy|Police|Return|Policy|About Us|Contact Us) don't work.
     On page with categories(Home >> CAR LIGHTING e.g.) doesn't work button "View All" on each category.
     On section "Latest news" doesn't work "Read More" button on each news.
     404 page isn't stylized(default django 404 page).
