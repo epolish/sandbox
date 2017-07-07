@@ -29,10 +29,10 @@ Functional problems:
 
 Not found:
 
-        http://geniusautoparts.com/favicon.ico
-        http://geniusautoparts.com/catalogue/static/js/slidebars.min.js 
-        http://geniusautoparts.com/catalogue/static/js/retina.min.js 
-        http://geniusautoparts.com/catalogue/static/js/jquery.backstretch.min.js
+    http://geniusautoparts.com/favicon.ico
+    http://geniusautoparts.com/catalogue/static/js/slidebars.min.js 
+    http://geniusautoparts.com/catalogue/static/js/retina.min.js 
+    http://geniusautoparts.com/catalogue/static/js/jquery.backstretch.min.js
 
 
 Syntax error in the next file:
