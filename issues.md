@@ -36,29 +36,42 @@ Syntax error in the next file:
 
 Login/Register page warning(because of https):
 
-    warning http://geniusautoparts.com/accounts/login/ includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.
+    warning http://geniusautoparts.com/accounts/login/ includes a password
+    or credit card input in a non-secure context.
+    A warning has been added to the URL bar.
+    For more information, see https://goo.gl/zmWq3m.
 
 
 Google PageSpeed Insights:
 
     Mobile:
-        Poor(42 / 100) : This page is not optimized and is likely to deliver a slow user experience. Please prioritize and apply the recommendations below.
-        Possible Optimizations: Enable compression, Eliminate render-blocking JavaScript and CSS in above-the-fold content, Leverage browser caching, Optimize images, Minify HTML, Reduce server response time, Minify JavaScript, Minify CSS
+        Poor(42 / 100) : This page is not optimized and is likely to deliver a slow user experience.
+        Please prioritize and apply the recommendations below.
+        Possible Optimizations: Enable compression,
+        Eliminate render-blocking JavaScript and CSS in above-the-fold content,
+        Leverage browser caching, Optimize images, Minify HTML,
+        Reduce server response time, Minify JavaScript, Minify CSS
 
     Desktop:
-        Poor(50 / 100) : This page is not optimized and is likely to deliver a slow user experience. Please prioritize and apply the recommendations below.
-        Possible Optimizations: Enable compression, Leverage browser caching, Eliminate render-blocking JavaScript and CSS in above-the-fold content, Optimize images, Minify HTML, Reduce server response time, Minify JavaScript, Minify CSS
+        Poor(50 / 100) : This page is not optimized and is likely to deliver a slow user experience.
+        Please prioritize and apply the recommendations below.
+        Possible Optimizations: Enable compression, Leverage browser caching,
+        Eliminate render-blocking JavaScript and CSS in above-the-fold content,
+        Optimize images, Minify HTML, Reduce server response time, Minify JavaScript, Minify CSS
 
 
 W3C Validator(index page):
 
-    Error: A document must not include both a meta element with an http-equiv attribute whose value is content-type, and a meta element with a charset attribute.
+    Error: A document must not include both a meta element with an http-equiv attribute
+    whose value is content-type, and a meta element with a charset attribute.
         From line 19, column 9; to line 19, column 30
         <meta charset="utf-8">
-    Error: A document must not include more than one meta element with its name attribute set to the value description.
+    Error: A document must not include more than one meta element
+    with its name attribute set to the value description.
         From line 22, column 9; to line 22, column 44
         <meta name="description" content="">
-    Error: Element div not allowed as child of element button in this context. (Suppressing further errors from this subtree.)
+    Error: Element div not allowed as child of element button in this context.
+    (Suppressing further errors from this subtree.)
         From line 127, column 29; to line 127, column 57
         <div class="search-btn-wrap"></div>
         Contexts in which element div may be used:
@@ -66,7 +79,8 @@ W3C Validator(index page):
         As a child of a dl element.
         Content model for element button:
         Phrasing content, but there must be no interactive content descendant.
-    Error: Element div not allowed as child of element button in this context. (Suppressing further errors from this subtree.)
+    Error: Element div not allowed as child of element button in this context.
+    (Suppressing further errors from this subtree.)
         From line 139, column 25; to line 139, column 51
         <div class="badge badge-1">2</div
         Contexts in which element div may be used:
@@ -74,7 +88,8 @@ W3C Validator(index page):
         As a child of a dl element.
         Content model for element button:
         Phrasing content, but there must be no interactive content descendant.
-    Error: Element div not allowed as child of element button in this context. (Suppressing further errors from this subtree.)
+    Error: Element div not allowed as child of element button in this context.
+    (Suppressing further errors from this subtree.)
         From line 145, column 25; to line 145, column 42
         <div class="icon">
         Contexts in which element div may be used:
@@ -82,7 +97,8 @@ W3C Validator(index page):
         As a child of a dl element.
         Content model for element button:
         Phrasing content, but there must be no interactive content descendant.
-    Error: Element div not allowed as child of element button in this context. (Suppressing further errors from this subtree.)
+    Error: Element div not allowed as child of element button in this context.
+    (Suppressing further errors from this subtree.)
         From line 150, column 25; to line 150, column 45
         <div class="summary">
         Contexts in which element div may be used:
