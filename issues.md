@@ -1,4 +1,9 @@
-Template design is responsive.
+Template is responsive and looks good in next browsers:
+
+    Google Chrome 51.0.2704.106
+    Opera 38.0
+    Firefox 47.0
+    Microsoft Edge 38.14393.1066.0
 
 
 Functional problems:
