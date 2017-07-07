@@ -8,7 +8,8 @@ Template is responsive and looks good in next browsers:
 
 Functional problems:
     
-    Code-behind has many whitespaces and empty strings.
+    Code-behind has many whitespaces and empty strings. When the project will be large,
+    it'll be additional overhead on server.
     
     Search results page doesnt stylized(controls, text etc.).
     Search image doesn't work by clicking. For searching, person must press enter.
