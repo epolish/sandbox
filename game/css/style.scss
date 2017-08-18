@@ -1,0 +1,66 @@
+$itemsCount: 5;
+$cellSize: 110;
+$borderSizePx: 1px;
+$cellSizePx: $cellSize * 1px;
+$gridSizePx: $cellSizePx * $itemsCount + $itemsCount * ($borderSizePx + 1);
+
+@mixin noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#container {
+    @include noselect;
+    cursor: pointer;
+    #grid {
+        margin: 0 auto;
+        width: $gridSizePx;
+        height: $gridSizePx;
+        .number {
+            float: left;
+            width: $cellSizePx;
+            height: $cellSizePx;
+            border: $borderSizePx solid;
+            border-right: none;
+            border-bottom: none;
+            line-height: $cellSizePx;
+            text-align: center;
+            font-size: ($cellSize / 22) * 1em;
+            &:last-child, &:nth-child(#{$itemsCount}n + #{$itemsCount}) {
+                border-right: $borderSizePx solid;
+            }
+            &:nth-last-child(-n + #{$itemsCount}) {
+                border-bottom: $borderSizePx solid;
+            }
+        }
+    }
+    #controls {
+        width: 330px;
+        margin: 2vh auto;
+        #start, #stop {
+            width: 120px;
+            background: darkgrey;
+            border: 3px darkgrey solid;
+            border-style: outset;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            &:active {
+                border-style: inset;
+            }
+        }
+    }
+    #start, #stop, #info {
+        float: left;
+        padding: 7px;
+        margin-right: 5px;
+        text-align: center;
+        font-size: 1.4em;
+    }
+    #info {
+        margin-left: 70px;
+        font-size: 2em;
+    }
+}
